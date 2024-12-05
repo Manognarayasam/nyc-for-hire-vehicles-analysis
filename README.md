@@ -1,3 +1,6 @@
+![Intro](./Assets/intro.png)
+
+
 This project analyzes the Uber NYC For-Hire Vehicles trip data for the year 2021, using various data analysis and visualization techniques to derive insights that can aid business decision-making. The dataset includes information about trip characteristics such as pickup/dropoff locations, trip times, distances, fares, and tips.
 
 ## Project Overview
@@ -23,6 +26,12 @@ The dataset used in this project consists of Uber NYC For-Hire Vehicles trip dat
 The data is stored in Parquet files, which are loaded and processed using PySpark.
 
 Dataset source: [Uber NYC For-Hire Vehicles Trip Data 2021 - Kaggle](https://www.kaggle.com/datasets/shuhengmo/uber-nyc-forhire-vehicles-trip-data-2021)
+![Dataset](./Assets/Kaggle.png)
+
+--- 
+### Google Cloud Storage:
+
+![Google Cloud](./Assets/Google%20cloud.png)
 
 ## Installation
 
@@ -31,7 +40,7 @@ To run this project on your local machine, follow these steps:
 1. *Clone the Repository*:
 
    ```bash
-   git clone https://github.com/Manognarayasam/nyc-for-hire-vehicles-analysis```
+   git clone https://github.com/Manognarayasam/nyc-for-hire-vehicles-analysis
 
 ## Project Workflow
 The workflow consists of the following main steps:
@@ -54,6 +63,8 @@ Data Saving: Saving the cleaned data back to GCS for future use or further analy
 - Top Pickup Locations: Highlighted the busiest areas for trip pickups.
 - Trip Duration Patterns: Analyzed how trip durations vary by month and other factors.
 - Driver Earnings & Tips: Investigated the relationship between trip distance, fare, and driver tips.
+![Visualization Preview](./Assets/Viz%20Preview.png)
+
 
 ## Conclusion
 This analysis provides valuable insights into the trip patterns and business dynamics of Uber's for-hire vehicles in NYC. By understanding peak times, popular locations, and earnings trends, Uber and similar services can make data-driven decisions to improve service efficiency and customer experience.
